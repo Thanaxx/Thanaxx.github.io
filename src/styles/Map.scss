@@ -1,0 +1,23 @@
+@import '../styles/Variables/Var.scss';
+
+.map-wrap{
+    iframe{
+        border: none;
+    }
+
+    .map-name{
+        padding: 30px 0;
+        p{
+            font-family: $Jost;
+            color: $mainColor;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 500;
+
+            @media screen and (max-width: 800px) {
+                font-size: 18px;
+                padding: 0 10px;
+            }
+        }
+    }
+}

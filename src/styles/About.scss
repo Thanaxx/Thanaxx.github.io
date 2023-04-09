@@ -1,0 +1,31 @@
+@import '../styles/Variables/Var.scss';
+
+.aboutDesc {
+    width: 80%;
+    text-align: center;
+    margin: 30px auto;
+    padding: 40px 0;
+  }
+  @media screen and (max-width: 800px) {
+    .aboutDesc {
+      width: 95%;
+      padding: 20px 0;
+    }
+  }
+  .aboutDesc p {
+    font-size: 25px;
+    font-family: "Jost", sans-serif;
+    color: #125B3B;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 1000px) {
+    .aboutDesc p {
+      font-size: 23px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .aboutDesc p {
+      font-size: 18px;
+      padding-top: 40px;
+    }
+  }

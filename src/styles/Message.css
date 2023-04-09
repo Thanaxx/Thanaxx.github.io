@@ -1,0 +1,84 @@
+.modal-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6784313725);
+  z-index: 99999;
+  display: none;
+}
+.modal-wrap .modal-box {
+  background-color: #ffffff;
+  padding: 30px 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+}
+@media screen and (max-width: 800px) {
+  .modal-wrap .modal-box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 10px;
+    width: 80%;
+  }
+}
+.modal-wrap .modal-box .checkIcon {
+  font-size: 100px;
+  color: #083823;
+}
+@media screen and (max-width: 800px) {
+  .modal-wrap .modal-box .checkIcon {
+    font-size: 80px;
+  }
+}
+.modal-wrap .modal-box h1 {
+  font-size: 35px;
+  color: #242424;
+}
+@media screen and (max-width: 800px) {
+  .modal-wrap .modal-box h1 {
+    font-size: 30px;
+  }
+}
+.modal-wrap .modal-box p {
+  font-size: 18px;
+  color: #3F3F3F;
+}
+@media screen and (max-width: 800px) {
+  .modal-wrap .modal-box p {
+    font-size: 15px;
+  }
+}
+.modal-wrap .modal-box .exit-btn {
+  width: 100%;
+  text-align: center;
+}
+.modal-wrap .modal-box .exit-btn button {
+  width: 90%;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: #083823;
+  color: #FFFFFF;
+  padding: 10px 0;
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .modal-wrap .modal-box .exit-btn button {
+    padding: 8px 0;
+    font-size: 12px;
+  }
+}
+
+.modal-wrap.active {
+  display: block;
+}/*# sourceMappingURL=Message.css.map */

@@ -1,0 +1,58 @@
+.igHeader {
+  text-align: center;
+  padding: 30px 0;
+}
+.igHeader .title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.igHeader .title .ig {
+  color: #125B3B;
+  font-size: 35px;
+}
+.igHeader .title p {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 5px;
+  color: #083823;
+  font-family: "Jost", sans-serif;
+}
+.igHeader .ig-desc {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .igHeader .ig-desc {
+    width: 95%;
+    font-size: 18px;
+  }
+}
+.igHeader .follow-btn button {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #125B3B;
+  border-radius: 5px;
+  color: #125B3B;
+  font-weight: 600;
+}
+@media screen and (max-width: 1000px) {
+  .igHeader .follow-btn button {
+    padding: 7px 20px;
+  }
+}
+.igHeader .follow-btn button .plus-icon {
+  font-weight: bold;
+}
+.igHeader .follow-btn :hover {
+  color: white;
+  background-color: #125B3B;
+  transition: 350ms ease-in-out;
+}/*# sourceMappingURL=Insta.css.map */

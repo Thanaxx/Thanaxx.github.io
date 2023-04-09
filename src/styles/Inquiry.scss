@@ -1,0 +1,127 @@
+@import '../styles/Variables/Var.scss';
+
+.inquiry-wrap{
+    .inquiry-form{
+        margin: 100px 100px 100px 100px;
+
+        @media screen and (max-width: 1000px){
+            margin: 80px 5px;
+        }
+
+        .form-grid{
+            display: grid;
+            grid-gap: 50px;
+            grid-template-columns: 1.5fr 2fr;
+
+            @media screen and (max-width: 1366px){
+                grid-template-columns: 1.6fr 2fr;
+            }
+
+            @media screen and (max-width: 1000px){
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 0px;
+            }
+
+            .form-col{
+                .form-title{
+                    text-align: left;
+
+                    @media screen and (max-width: 1000px){
+                        text-align: center;
+                    }
+
+                    h1{
+                        font-family: $BebasNeue;
+                        font-size: 130px;
+                        color: $darkGreen;
+                        line-height: 1;
+                        letter-spacing: 3px;
+
+                        @media screen and (max-width: 1366px){
+                            font-size: 100px;
+                        }
+
+                        @media screen and (max-width: 800px){
+                            font-size: 70px;
+                            letter-spacing: 1px;
+                            margin-bottom: 20px;
+                            display: none;
+                        }
+                    }
+
+                    .hide{
+                        display: none;
+
+                        @media screen and (max-width: 800px) {
+                            display: block;
+                        }
+                    }
+                }
+
+                form{
+                    padding: 10px 50px;
+
+                    @media screen and (max-width: 1366px) {
+                        padding: 10px 0px;
+                    }
+
+                    @media screen and (max-width: 1000px) {
+                        padding: 10px;
+                    }
+                    label{
+                        width: 100%;
+                        font-family: $Jost;
+                        font-size: 18px;
+                        color: #595a59;
+                    }
+
+                    input{
+                        width: 100%;
+                        padding: 15px 5px;
+                        margin-bottom: 25px;
+                        background-color: transparent;
+                        border: none;
+                        border-bottom: 1px solid #9CA3A0;
+                        outline: none;
+                        font-family: $Jost;
+                        color: #454645;
+                        font-size: 16px;
+                    }
+
+                    .form-grid{
+                        display: grid;
+                        grid-gap: 10px;
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+
+                    select{
+                        border: none;
+                        outline: none;
+                        padding: 15px 20px;
+                        font-size: 16px;
+                        color: #454645;
+                        font-family: $Jost;
+                        margin: 10px 0 10px 30px;
+
+                        option{
+                            font-size: 14px;
+                            font-family: $Jost;
+                        }
+                    }
+
+                    .submit-wrap{
+                        text-align: left;
+
+                        @media screen and (max-width: 800px) {
+                            text-align: center;
+                        }
+                    }
+
+                    .submit-btn{
+                        @include submitBtnForm();
+                    }
+                }
+            }
+        }
+    }
+}

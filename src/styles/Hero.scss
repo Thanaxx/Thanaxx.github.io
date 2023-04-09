@@ -1,0 +1,195 @@
+@import '../styles/Variables/Var.scss';
+
+.member-head-title{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    width: 100%;
+    margin: auto;
+    // background-color: red;
+
+    @media screen and (max-width:1000px) {
+        top: 30%;
+    }
+
+    @media screen and (max-width:800px) {
+        top: 30%;
+        //top: 33%;
+    }
+
+    @media screen and (max-width:580px) {
+        top: 29%;
+    }
+
+    @media screen and (max-width:500px) {
+        top: 27%;
+    }
+
+    @media screen and (max-width:420px) {
+        top: 20%;
+        //top: 22%;
+    }
+
+    @media screen and (max-width:360px) {
+        top: 20%;
+    }
+
+    .head-label{
+        text-align: center;
+
+        .head-caption{
+            font-size: 5.5vw;
+            font-family: $Jost;
+            font-weight: 600;
+            color: $white;
+            line-height: 120px;
+            text-transform: uppercase;
+            // background-image: linear-gradient(
+            //   -225deg,
+            //   #155738 0%,
+            //   #ffffff 29%,
+            //   #197e4b 67%,
+            //   #083813 100%
+            // );
+            // background-size: auto auto;
+            // background-clip: border-box;
+            // background-size: 200% auto;
+            color: #f2f7f3;
+            // background-clip: text;
+            // text-fill-color: transparent;
+            // -webkit-background-clip: text;
+            // -webkit-text-fill-color: transparent;
+            // animation: textclip 5s linear infinite;
+            // display: inline-block;
+
+
+            //     @keyframes textclip {
+            //         to {
+            //           background-position: 200% center;
+            //         }
+            //       }
+
+            @media screen and (max-width: 1366px) {
+                line-height: 100px;
+            }
+
+            @media screen and (max-width: 1000px) {
+                line-height: 70px;
+            }
+
+            @media screen and (max-width: 810px) {
+                line-height: 48px;
+            }
+
+            @media screen and (max-width: 800px) {
+                line-height: 40px;
+            }
+
+            @media screen and (max-width: 600px) {
+                line-height: 30px;
+                font-size: 25px;
+            }
+
+            @media screen and (max-width:500px) {
+                font-size: 27px;
+                line-height: 33px;
+            }
+
+            @media screen and (max-width:490px) {
+                font-size: 24px;
+                line-height: 24px;
+            }
+
+            @media screen and (max-width:428px) {
+                font-size: 24px;
+                line-height: 24px;
+            }
+
+            @media screen and (max-width:422px) {
+                font-size: 20px;
+                line-height: 24px;
+            }
+
+            @media screen and (max-width:360px) {
+                font-size: 20px;
+                line-height: 20px;
+            }
+        }
+
+
+    }
+
+    .member-btn{
+        text-align: center;
+
+        button{
+            margin-top: 30px;
+            padding: 18px 40px;
+            font-size: 16px;
+            font-family: $Jost;
+            cursor: pointer;
+            background-color: $mainColor;
+            outline: none;
+            border: none;
+            border-radius: 3px;
+            color: $white;
+            font-weight: 500;
+            transition: 350ms ease-in-out;
+
+            @media screen and (max-width:810px) {
+                margin-top: 20px;
+                padding: 10px 20px;
+                font-size: 12px;
+            }
+
+            @media screen and (max-width:428px) {
+                font-size: 10px;
+                padding: 7px 20px;
+            }
+
+            @media screen and (max-width:420px) {
+                margin-top: 10px;
+                padding: 7px 20px;
+                font-size: 9px;
+            }
+
+            @media screen and (max-width:360px) {
+                margin-top: 10px;
+                padding: 5px 20px;
+                font-size: 9px;
+            }
+        }
+
+        button:hover{
+            @include btnHover();
+        }
+    }
+}
+
+.heroDesc{
+    width: 80%;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    padding: 15px 0;
+
+    @media screen and (max-width: 800px) {
+        width: 95%;
+        padding: 10px 0;
+    }
+
+    p{
+        font-size: 24px;
+        font-family: $Jost;
+        color: $mainColor;
+        font-weight: 500;
+
+        @media screen and (max-width: 1000px) {
+            font-size: 25px;
+        }
+
+        @media screen and (max-width: 800px) {
+            font-size: 20px;
+        }
+    }
+}

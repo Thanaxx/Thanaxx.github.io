@@ -1,0 +1,19 @@
+.map-wrap iframe {
+  border: none;
+}
+.map-wrap .map-name {
+  padding: 30px 0;
+}
+.map-wrap .map-name p {
+  font-family: "Jost", sans-serif;
+  color: #125B3B;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .map-wrap .map-name p {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+}/*# sourceMappingURL=Map.css.map */

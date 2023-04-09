@@ -1,0 +1,100 @@
+//colors
+$mainColor: #125B3B;
+$darkGreen: #083823;
+$white: #FFFFFF;
+$lightGreen: #448f42;
+$dark: #212121;
+
+//fonts
+$Jost: 'Jost', sans-serif;
+$BebasNeue: 'Bebas Neue', cursive;
+
+//fontSize
+$normal: 14px;
+$titleSize: 50px;
+
+//font wieght
+$light: 400;
+$heavy: 700;
+
+//buttons
+@mixin heroBtn ($custom){
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: $custom;
+    cursor: pointer;
+}
+
+//HOVER
+@mixin btnHover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px #5157533a;
+    background-color: $darkGreen;
+}
+
+@mixin btnHoverOutlined{
+    box-shadow: 0 5px 10px #5157533a;
+    background-color: $white;
+    color: $mainColor;
+}
+
+//MAIN BTN
+@mixin mem-Btn {
+    padding: 15px 30px;
+    font-size: 14px;
+    font-family: $Jost;
+    cursor: pointer;
+    background-color: $mainColor;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: $white;
+    font-weight: 600;
+    transition: 350ms ease-in-out;
+}
+
+@mixin main-Btn {
+
+}
+
+@mixin regBtn{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+@mixin heroImg{
+    width: 100%;
+    height: 100vh;
+}
+
+//FORMS BUTTON
+@mixin submitBtnForm{
+    background-color: $mainColor;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: $white;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 200px;
+    text-align: center;
+    transition: 350ms ease-in-out;
+}
+
+//border button
+@mixin faciBtn{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-family: $Jost;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: $white;
+    font-weight: 600;
+    transition: 350ms ease-in-out;
+}

@@ -1,0 +1,130 @@
+.event-wrap {
+  margin: 50px 100px;
+}
+@media screen and (max-width: 800px) {
+  .event-wrap {
+    margin: 50px 0;
+  }
+}
+.event-wrap .event-title {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+@media screen and (max-width: 1000px) {
+  .event-wrap .event-title {
+    width: 98%;
+  }
+}
+.event-wrap .event-title h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 45px;
+  color: #083823;
+  letter-spacing: 2px;
+}
+.event-wrap .event-title p {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 800px) {
+  .event-wrap .event-title p {
+    font-size: 18px;
+  }
+}
+.event-wrap .event-inquiry {
+  width: 70%;
+  margin: 50px auto;
+}
+@media screen and (max-width: 1000px) {
+  .event-wrap .event-inquiry {
+    width: 95%;
+  }
+}
+.event-wrap .event-inquiry .inquiry-form {
+  padding: 30px 0;
+}
+.event-wrap .event-inquiry input {
+  width: 100%;
+  padding: 15px 5px;
+  margin-bottom: 25px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9CA3A0;
+  outline: none;
+  font-family: "Jost", sans-serif;
+  color: #454645;
+  font-size: 16px;
+}
+@media screen and (max-width: 1000px) {
+  .event-wrap .event-inquiry input {
+    padding: 10px 5px;
+  }
+}
+.event-wrap .event-inquiry .form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+@media screen and (max-width: 800px) {
+  .event-wrap .event-inquiry .form-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.event-wrap .event-inquiry .form-grid label {
+  width: 100%;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  color: #595a59;
+  margin-top: 30px;
+}
+.event-wrap .event-inquiry .form-grid input[type=text] {
+  width: 100%;
+}
+.event-wrap .event-inquiry .form-grid input[type=number] {
+  width: 100%;
+}
+.event-wrap .event-inquiry .form-grid input[type=email] {
+  width: 100%;
+}
+.event-wrap .event-inquiry .form-gridB {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+@media screen and (max-width: 800px) {
+  .event-wrap .event-inquiry .form-gridB {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.event-wrap .event-inquiry .form-gridB label {
+  width: 100%;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  color: #595a59;
+}
+.event-wrap .event-inquiry .form-gridB input[type=text] {
+  width: 100%;
+}
+.event-wrap .event-inquiry .form-gridB input[type=number] {
+  width: 100%;
+}
+.event-wrap .event-inquiry .form-gridB input[type=date] {
+  width: 100%;
+}
+.event-wrap .event-inquiry .submit-btn-wrap {
+  text-align: center;
+}
+.event-wrap .event-inquiry .submit-btn-wrap .submit-btn-event {
+  background-color: #125B3B;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 40px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+  transition: 350ms ease-in-out;
+}/*# sourceMappingURL=Events.css.map */

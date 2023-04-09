@@ -1,0 +1,85 @@
+.extend-carousel {
+  height: 100%;
+}
+.extend-carousel .carousel {
+  height: 100%;
+  width: 100%;
+}
+.extend-carousel .carousel .cell {
+  width: 100%;
+  height: 90vh;
+}
+@media screen and (max-width: 1000px) {
+  .extend-carousel .carousel .cell {
+    height: 350px;
+  }
+}
+.extend-carousel .carousel .cell img {
+  height: 100vh;
+  width: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .extend-carousel .carousel .cell img {
+    height: 350px;
+  }
+}
+.extend-carousel .benefits {
+  background-color: #fdfdfd;
+  position: relative;
+  width: 400px;
+  bottom: 350px;
+  margin-left: 50px;
+  padding: 20px;
+  color: #125B3B;
+  font-family: "Jost", sans-serif;
+  border-radius: 3px;
+}
+@media screen and (max-width: 1000px) {
+  .extend-carousel .benefits {
+    bottom: 0px;
+    width: auto;
+    margin: 50px 0;
+    background-color: rgba(253, 253, 253, 0.4588235294);
+  }
+}
+.extend-carousel .benefits h1 {
+  font-size: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .extend-carousel .benefits h1 {
+    font-size: 30px;
+  }
+}
+.extend-carousel .benefits p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.extend-carousel .benefits a {
+  text-decoration: none;
+}
+.extend-carousel .benefits .mem-benefit {
+  padding: 10px 0px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #125B3B;
+  font-family: "Jost", sans-serif;
+  margin-top: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.extend-carousel .benefits .mem-benefit p {
+  font-size: 14px;
+  transition: 2s ease-in-out;
+}
+@media screen and (max-width: 1000px) {
+  .extend-carousel .benefits .mem-benefit p {
+    font-size: 14px;
+  }
+}
+.extend-carousel .benefits .mem-benefit :hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=CarouselExtend.css.map */

@@ -1,0 +1,134 @@
+@import '../styles/Variables/Var.scss';
+
+.event-wrap{
+    margin: 50px 100px;
+
+    @media screen and (max-width: 800px) {
+        margin: 50px 0;
+    }
+
+    .event-title{
+        text-align: center;
+        width: 70%;
+        margin: auto;
+
+        @media screen and (max-width: 1000px) {
+            width: 98%;
+        }
+
+        h1{
+            font-family: $BebasNeue;
+            font-size: 45px;
+            color: $darkGreen;
+            letter-spacing: 2px;
+        }
+
+        p{
+            font-family: $Jost;
+            font-size: 20px;
+            margin-top: 10px;
+
+            @media screen and (max-width: 800px) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .event-inquiry{
+        width: 70%;
+        margin: 50px auto;
+
+        @media screen and (max-width: 1000px) {
+            width: 95%;
+        }
+
+        .inquiry-form{
+            padding: 30px 0;
+        }
+
+        input{
+            width: 100%;
+            padding: 15px 5px;
+            margin-bottom: 25px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #9CA3A0;
+            outline: none;
+            font-family: $Jost;
+            color: #454645;
+            font-size: 16px;
+
+            @media screen and (max-width: 1000px) {
+                padding: 10px 5px;
+            }
+        }
+
+
+        .form-grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 30px;
+
+            @media screen and (max-width: 800px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            label{
+                width: 100%;
+                font-family: $Jost;
+                font-size: 18px;
+                color: #595a59;
+                margin-top: 30px;
+            }
+
+            input[type=text]{
+                width: 100%;
+            }
+
+            input[type=number]{
+                width: 100%;
+            }
+
+            input[type=email]{
+                width: 100%;
+            }
+        }
+
+        .form-gridB{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+
+            @media screen and (max-width: 800px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            label{
+                width: 100%;
+                font-family: $Jost;
+                font-size: 18px;
+                color: #595a59;
+            }
+
+            input[type=text]{
+                width: 100%;
+            }
+
+            input[type=number]{
+                width: 100%;
+            }
+
+            input[type=date]{
+                width: 100%;
+            }
+        }
+
+        .submit-btn-wrap{
+            text-align: center;
+
+            .submit-btn-event{
+                @include submitBtnForm();
+            }
+        }
+    }
+}

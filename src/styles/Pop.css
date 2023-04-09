@@ -1,0 +1,41 @@
+.pop-wrap .pop.active {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  text-align: right;
+  transition: 850ms;
+  background-color: transparent;
+  box-shadow: none;
+}
+@media screen and (max-width: 800px) {
+  .pop-wrap .pop.active {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    transition: 850ms;
+    background-color: none;
+  }
+}
+.pop-wrap .pop {
+  bottom: -100%;
+  transition: 850ms;
+}
+.pop-wrap button {
+  padding: 15px 70px;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background-color: #083823;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .pop-wrap button {
+    padding: 12px 60px;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=Pop.css.map */

@@ -1,0 +1,184 @@
+.member-head-title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  width: 100%;
+  margin: auto;
+}
+@media screen and (max-width: 1000px) {
+  .member-head-title {
+    top: 30%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .member-head-title {
+    top: 30%;
+  }
+}
+@media screen and (max-width: 580px) {
+  .member-head-title {
+    top: 29%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .member-head-title {
+    top: 27%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .member-head-title {
+    top: 20%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .member-head-title {
+    top: 20%;
+  }
+}
+.member-head-title .head-label {
+  text-align: center;
+}
+.member-head-title .head-label .head-caption {
+  font-size: 5.5vw;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: #f2f7f3;
+}
+@media screen and (max-width: 1366px) {
+  .member-head-title .head-label .head-caption {
+    line-height: 100px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .member-head-title .head-label .head-caption {
+    line-height: 70px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .member-head-title .head-label .head-caption {
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .member-head-title .head-label .head-caption {
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .member-head-title .head-label .head-caption {
+    line-height: 30px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .member-head-title .head-label .head-caption {
+    font-size: 27px;
+    line-height: 33px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .member-head-title .head-label .head-caption {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .member-head-title .head-label .head-caption {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 422px) {
+  .member-head-title .head-label .head-caption {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .member-head-title .head-label .head-caption {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+.member-head-title .member-btn {
+  text-align: center;
+}
+.member-head-title .member-btn button {
+  margin-top: 30px;
+  padding: 18px 40px;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  cursor: pointer;
+  background-color: #125B3B;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: #FFFFFF;
+  font-weight: 500;
+  transition: 350ms ease-in-out;
+}
+@media screen and (max-width: 810px) {
+  .member-head-title .member-btn button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .member-head-title .member-btn button {
+    font-size: 10px;
+    padding: 7px 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .member-head-title .member-btn button {
+    margin-top: 10px;
+    padding: 7px 20px;
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .member-head-title .member-btn button {
+    margin-top: 10px;
+    padding: 5px 20px;
+    font-size: 9px;
+  }
+}
+.member-head-title .member-btn button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(81, 87, 83, 0.2274509804);
+  background-color: #083823;
+}
+
+.heroDesc {
+  width: 80%;
+  text-align: center;
+  margin: 50px auto 50px auto;
+  padding: 15px 0;
+}
+@media screen and (max-width: 800px) {
+  .heroDesc {
+    width: 95%;
+    padding: 10px 0;
+  }
+}
+.heroDesc p {
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  color: #125B3B;
+  font-weight: 500;
+}
+@media screen and (max-width: 1000px) {
+  .heroDesc p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .heroDesc p {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=Hero.css.map */

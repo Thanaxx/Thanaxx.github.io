@@ -1,0 +1,103 @@
+.carousel-wrap {
+  height: 100%;
+  position: relative;
+}
+.carousel-wrap .carousel {
+  height: 100%;
+  width: 100%;
+}
+.carousel-wrap .carousel .cell {
+  width: 100%;
+  height: 100vh;
+}
+@media screen and (max-width: 1000px) {
+  .carousel-wrap .carousel .cell {
+    height: 350px;
+  }
+}
+.carousel-wrap .carousel .cell img {
+  height: 100vh;
+  width: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .carousel-wrap .carousel .cell img {
+    height: 350px;
+  }
+}
+.carousel-wrap .benefits {
+  position: absolute;
+  top: 78%;
+  left: 13%;
+  transform: translate(-50%, -20%);
+  margin: auto;
+  margin-left: 50px;
+  width: 400px;
+  padding: 20px;
+  color: #125B3B;
+  font-family: "Jost", sans-serif;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+}
+@media screen and (max-width: 1366px) {
+  .carousel-wrap .benefits {
+    top: 70%;
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .carousel-wrap .benefits {
+    position: static;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    margin-left: 0px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+  }
+}
+.carousel-wrap .benefits h1 {
+  font-size: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .carousel-wrap .benefits h1 {
+    font-size: 30px;
+  }
+}
+.carousel-wrap .benefits p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.carousel-wrap .benefits a {
+  text-decoration: none;
+}
+.carousel-wrap .benefits .mem-benefit {
+  padding: 10px 0px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #125B3B;
+  font-family: "Jost", sans-serif;
+  margin-top: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.carousel-wrap .benefits .mem-benefit .car-arrow {
+  font-size: 20px;
+  font-weight: 500;
+}
+.carousel-wrap .benefits .mem-benefit p {
+  font-size: 13px;
+  transition: 2s ease-in-out;
+}
+@media screen and (max-width: 1000px) {
+  .carousel-wrap .benefits .mem-benefit p {
+    font-size: 14px;
+  }
+}
+.carousel-wrap .benefits .mem-benefit :hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=Carousel.css.map */

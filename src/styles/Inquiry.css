@@ -1,0 +1,130 @@
+.inquiry-wrap .inquiry-form {
+  margin: 100px 100px 100px 100px;
+}
+@media screen and (max-width: 1000px) {
+  .inquiry-wrap .inquiry-form {
+    margin: 80px 5px;
+  }
+}
+.inquiry-wrap .inquiry-form .form-grid {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 1.5fr 2fr;
+}
+@media screen and (max-width: 1366px) {
+  .inquiry-wrap .inquiry-form .form-grid {
+    grid-template-columns: 1.6fr 2fr;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .inquiry-wrap .inquiry-form .form-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+  }
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col .form-title {
+  text-align: left;
+}
+@media screen and (max-width: 1000px) {
+  .inquiry-wrap .inquiry-form .form-grid .form-col .form-title {
+    text-align: center;
+  }
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col .form-title h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 130px;
+  color: #083823;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+@media screen and (max-width: 1366px) {
+  .inquiry-wrap .inquiry-form .form-grid .form-col .form-title h1 {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .inquiry-wrap .inquiry-form .form-grid .form-col .form-title h1 {
+    font-size: 70px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    display: none;
+  }
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col .form-title .hide {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .inquiry-wrap .inquiry-form .form-grid .form-col .form-title .hide {
+    display: block;
+  }
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col form {
+  padding: 10px 50px;
+}
+@media screen and (max-width: 1366px) {
+  .inquiry-wrap .inquiry-form .form-grid .form-col form {
+    padding: 10px 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .inquiry-wrap .inquiry-form .form-grid .form-col form {
+    padding: 10px;
+  }
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col form label {
+  width: 100%;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  color: #595a59;
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col form input {
+  width: 100%;
+  padding: 15px 5px;
+  margin-bottom: 25px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9CA3A0;
+  outline: none;
+  font-family: "Jost", sans-serif;
+  color: #454645;
+  font-size: 16px;
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col form .form-grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col form select {
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: #454645;
+  font-family: "Jost", sans-serif;
+  margin: 10px 0 10px 30px;
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col form select option {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col form .submit-wrap {
+  text-align: left;
+}
+@media screen and (max-width: 800px) {
+  .inquiry-wrap .inquiry-form .form-grid .form-col form .submit-wrap {
+    text-align: center;
+  }
+}
+.inquiry-wrap .inquiry-form .form-grid .form-col form .submit-btn {
+  background-color: #125B3B;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 40px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+  transition: 350ms ease-in-out;
+}/*# sourceMappingURL=Inquiry.css.map */

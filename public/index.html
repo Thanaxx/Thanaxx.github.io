@@ -2,42 +2,142 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="./VICTORIA SPORTS logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Victoria Sports Club is the Philippines’ largest indoor sports gym featuring Modernized Gym Equipment, Water Spa, Lap Pool, and Indoor Sports Facilities."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"/>
+    <style lang="scss"></style>
+
+    <title>Victoria Sports Club | Indoor Sports Facilities | Quezon City</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- ANIMATION LIBRARY | CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Victoria Sports Club | Indoor Sports Facilities | Quezon City</title>
+
+    <!-- Prelaoder style -->
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      #preloader{
+        height: 100vh;
+        width: 100%;
+        z-index: 9999;
+        overflow: hidden;
+        background-color: #303030;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      #preloader::before{
+        content: "";
+        position: fixed;
+        -webkit-animation: load 1s linear infinite;
+        animation: load 10s linear infinite;
+      }
+
+      .load-img{
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      .load-img img{
+        width: auto;
+      }
+
+      .loading{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .line-box{
+        width: 150px;
+        height: 0.5px;
+      }
+
+      .line{
+        height: 1px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        animation: load 4s forwards cubic-bezier(0,0,0,0) infinite;
+      }
+
+      @keyframes load {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 100%;
+        }
+      }
+      </style>
+    <!-- End of preloader style -->
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="root">
+      <!-- PRE-LOADER -->
+      <div id="preloader">
+        <div class="load-img">
+          <img src="/images/preloader/vscpreloader.png" alt="">
+        </div>
+        <div class="loading">
+          <div class="line-box">
+            <div class="line"> </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF PRE-LOADER -->
+    </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- ANIMATION LIBRARY | CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script>
+      AOS.init();
+    </script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- INSTAGRAM -->
+
+    <script
+      src="https://cdn2.woxo.tech/a.js#6356070f3f4a5344f112f48f"
+      async data-usrc>
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0V3S2XLKZ5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0V3S2XLKZ5');
+    </script>
+
+
   </body>
 </html>
